@@ -23,15 +23,15 @@ public class arithmeticCalculator {
         {
             System.out.println("your answer is" + (num1 + num2));
         }
-        else if  (operation == "-")
+        else if  (operation.equals("-"))
         {
             System.out.println("your answer is" + (num1 - num2));
         }
-        else if (operation == "*")
+        else if (operation.equals("*"))
         {
             System.out.println("your answer is" + (num1 * num2));
         }
-        else if (operation == "/")
+        else if (operation.equals("/"))
         {
             System.out.println("your answer is" + (num1 / num2));
         }
